@@ -1,5 +1,3 @@
-const { use } = require("react");
-
 const transactions = [
   { userId: 1, amount: 50 },
   { userId: 1, amount: 200 },

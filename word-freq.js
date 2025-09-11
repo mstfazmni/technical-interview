@@ -10,7 +10,6 @@ const stopWords = ["i", "in", "is", "for", "and"];
 notes.forEach((words) => {
     const word = words.split(" ");
     
-    // const count = 0;
     word.forEach((w) => {
         const wLower = w.toLowerCase();
         if (stopWords.includes(wLower)) return;
