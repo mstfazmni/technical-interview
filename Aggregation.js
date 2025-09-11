@@ -1,4 +1,3 @@
-const { use } = require("react");
 
 const arr = [
   { userId: 1, type: "deposit", amount: 100 },
